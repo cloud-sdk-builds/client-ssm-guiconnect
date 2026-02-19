@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-ssm-guiconnect`](https://www.npmjs.com/package/@aws-sdk/client-ssm-guiconnect/v/3.981.0).
+[`@aws-sdk/client-ssm-guiconnect`](https://www.npmjs.com/package/@aws-sdk/client-ssm-guiconnect/v/3.982.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-guiconnect@3.981.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-guiconnect@3.982.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-rqrE05GnSc6pZvO4JwEMHE5PHr+1gskZqsdkn8qpK3vCcD52yt+5mwA6a/dQRhp/
+sha384-zTqM8iRNNDZ7FBVNADuk4cmDYcneelmGUrQv/nEBFcZjQLdIbohcrqhu9S12wdNM
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-ssm-guiconnect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-guiconnect@3.981.0/index.min.mjs"
+            "@aws-sdk/client-ssm-guiconnect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-guiconnect@3.982.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-guiconnect@3.981.0/index.min.mjs": "sha384-rqrE05GnSc6pZvO4JwEMHE5PHr+1gskZqsdkn8qpK3vCcD52yt+5mwA6a/dQRhp/"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-guiconnect@3.982.0/index.min.mjs": "sha384-zTqM8iRNNDZ7FBVNADuk4cmDYcneelmGUrQv/nEBFcZjQLdIbohcrqhu9S12wdNM"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-ssm-guiconnect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-guiconnect@3.981.0/index.min.mjs"
+                        "@aws-sdk/client-ssm-guiconnect": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-guiconnect@3.982.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-guiconnect@3.981.0/index.min.mjs": "sha384-rqrE05GnSc6pZvO4JwEMHE5PHr+1gskZqsdkn8qpK3vCcD52yt+5mwA6a/dQRhp/"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-ssm-guiconnect@3.982.0/index.min.mjs": "sha384-zTqM8iRNNDZ7FBVNADuk4cmDYcneelmGUrQv/nEBFcZjQLdIbohcrqhu9S12wdNM"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.981.0`)
+* Always pin to a specific version (`@3.982.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-ssm-guiconnect/blob/refs/tags/3.981.0/LICENSE
+https://github.com/cloud-sdk-builds/client-ssm-guiconnect/blob/refs/tags/3.982.0/LICENSE
 ```
 
 ---
